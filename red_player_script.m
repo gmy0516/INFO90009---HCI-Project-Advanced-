@@ -402,7 +402,7 @@ end
     
     data_send = [player_red_location(1),player_red_location(2),0];
 
-    % Aim, shoot function -不必要，但还是要区分
+    % Aim, shoot function
     if (isequal(movement, "A"))
         [x,Fs] = audioread('aimming.wav');
         sound(x,Fs);
